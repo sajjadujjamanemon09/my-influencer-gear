@@ -1,0 +1,22 @@
+/* responsive media queries */
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header,
+    ul{
+        padding: 20px;
+    }
+
+    nav,
+    ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        width: auto;
+        height: auto;
+    }
+
+}

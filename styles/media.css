@@ -2,21 +2,32 @@
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
+
     header,
-    ul{
+    ul,
+    .feature-content {
         padding: 20px;
+        text-align: center;
     }
 
     nav,
-    ul{
+    ul {
         flex-direction: column;
     }
-    .banner{
+
+    .banner,
+    .feature-container {
         flex-direction: column-reverse;
     }
-    .banner img{
+
+    .banner img {
         width: auto;
         height: auto;
+    }
+
+    .brand {
+        width: auto;
+        flex-wrap: wrap;
     }
 
 }

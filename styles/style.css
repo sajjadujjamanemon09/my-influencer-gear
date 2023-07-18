@@ -80,7 +80,7 @@ nav li {
 }
 
 /* brand title */
-.brand{
+.brand {
     width: 75%;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -88,4 +88,31 @@ nav li {
     margin: 100px auto;
     display: flex;
     justify-content: space-around;
+}
+
+/* feature section */
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-img {
+    width: 404px;
+    height: 270px;
+}
+
+.feature-content {
+    max-width: 500px;
+}
+
+.btn-feature {
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
 }
